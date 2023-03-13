@@ -23,19 +23,19 @@ let argNumberOfDice = Number(argDiceInputSplit[0]);
 // Define the type of dice to roll (extracted from input)
 let argTypeOfDice = Number(argDiceInputSplit[1]);
 
-// Define loop counter
-let loopCount = 0;
-
+// Defines an empty array for storing player dice roll data
 let playerDiceRollsArray = [];
 
+// Defines an empty array for storing player dice roll hard fail data
 let playerRollsHardFails = [];
 
+// Defines an empty array for storing player dice roll tens to be rerolled data
 let playerRollsTensReroll = [];
 
 // Generates a random number between 1 and n based on the number of dice, and type specified
 function rollDice(rollDiceNumber, rollDiceType) {
 
-  // Define and empty array
+  // Define an empty array for storing the dice rolls
   let rollDiceArray = [];
 
   // While 'rollDiceNumber' is greater than '0'
