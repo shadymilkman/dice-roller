@@ -32,18 +32,6 @@ let playerRollsHardFails = [];
 
 let playerRollsTensReroll = [];
 
-// let rollDiceArray = [];
-
-// While loopCount is less than argNumberOfDice
-// while (loopCount < argNumberOfDice) {
-//   // Generate random number between 1 and x based on number returned by argTypeOfDice
-//   // currentDiceRoll = Math.floor(Math.random() * argTypeOfDice) + 1;
-//   playerDiceRollsArray.push(Math.floor(Math.random() * argTypeOfDice) + 1);
-//   // Math.floor(Math.random() * argTypeOfDice) + 1;
-//   // Increment loopCount
-//   loopCount++;
-// }
-
 // Generates a random number between 1 and n based on the number of dice, and type specified
 function rollDice(rollDiceNumber, rollDiceType) {
 
